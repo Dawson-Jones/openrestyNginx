@@ -1,0 +1,97 @@
+2020/03/27 19:04:37 [alert] 9544#0: lua_code_cache is off; this will hurt performance in /usr/local/openresty/nginx/conf/redis.conf:11
+2020/03/27 19:04:37 [emerg] 9544#0: "location" directive is not allowed here in /usr/local/openresty/nginx/conf/redis.conf:15
+2020/03/27 19:05:41 [alert] 9550#0: lua_code_cache is off; this will hurt performance in /usr/local/openresty/nginx/conf/redis.conf:11
+2020/03/27 19:05:41 [emerg] 9550#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2020/03/27 19:05:41 [emerg] 9550#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2020/03/27 19:05:41 [emerg] 9550#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2020/03/27 19:05:41 [emerg] 9550#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2020/03/27 19:05:41 [emerg] 9550#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2020/03/27 19:05:41 [emerg] 9550#0: still could not bind()
+2020/03/27 19:06:06 [alert] 9552#0: lua_code_cache is off; this will hurt performance in /usr/local/openresty/nginx/conf/redis.conf:11
+2020/03/27 19:07:07 [error] 9554#0: *1 failed to load inlined Lua code: content_by_lua(redis.conf:47):14: 'then' expected near '=', client: 116.232.75.140, server: , request: "POST /test HTTP/1.1", host: "39.106.50.219:3344"
+2020/03/27 19:07:26 [error] 9554#0: *2 failed to load inlined Lua code: content_by_lua(redis.conf:47):14: 'then' expected near '=', client: 116.232.75.140, server: , request: "GET /test HTTP/1.1", host: "39.106.50.219:3344"
+2020/03/27 19:07:26 [error] 9554#0: *3 open() "/usr/local/openresty/nginx/html/favicon.ico" failed (2: No such file or directory), client: 116.232.75.140, server: , request: "GET /favicon.ico HTTP/1.1", host: "39.106.50.219:3344", referrer: "http://39.106.50.219:3344/test"
+2020/03/27 19:08:04 [notice] 9566#0: signal process started
+2020/03/27 19:08:04 [alert] 9553#0: lua_code_cache is off; this will hurt performance in /usr/local/openresty/nginx/conf/redis.conf:11
+2020/03/27 19:08:07 [error] 9567#0: *4 failed to load inlined Lua code: content_by_lua(redis.conf:47):14: 'then' expected near '=', client: 116.232.75.140, server: , request: "GET /test HTTP/1.1", host: "39.106.50.219:3344"
+2020/03/27 19:08:07 [error] 9567#0: *5 failed to load inlined Lua code: content_by_lua(redis.conf:47):14: 'then' expected near '=', client: 116.232.75.140, server: , request: "GET /test HTTP/1.1", host: "39.106.50.219:3344"
+2020/03/27 19:08:08 [error] 9567#0: *6 failed to load inlined Lua code: content_by_lua(redis.conf:47):14: 'then' expected near '=', client: 116.232.75.140, server: , request: "GET /test HTTP/1.1", host: "39.106.50.219:3344"
+2020/03/27 19:15:52 [error] 9567#0: *8 failed to load inlined Lua code: content_by_lua(redis.conf:47):14: 'then' expected near '=', client: 116.232.75.140, server: , request: "GET /test HTTP/1.1", host: "39.106.50.219:3344"
+2020/03/29 06:59:11 [error] 9567#0: *14 open() "/usr/local/openresty/nginx/html/sdk" failed (2: No such file or directory), client: 101.133.138.230, server: , request: "POST /sdk HTTP/1.1", host: "39.106.50.219:3344"
+2020/03/29 06:59:11 [error] 9567#0: *16 open() "/usr/local/openresty/nginx/html/nmaplowercheck1585436351" failed (2: No such file or directory), client: 101.133.138.230, server: , request: "GET /nmaplowercheck1585436351 HTTP/1.1", host: "39.106.50.219:3344"
+2020/03/29 06:59:11 [error] 9567#0: *17 open() "/usr/local/openresty/nginx/html/HNAP1" failed (2: No such file or directory), client: 101.133.138.230, server: , request: "GET /HNAP1 HTTP/1.1", host: "39.106.50.219:3344"
+2020/03/29 06:59:11 [error] 9567#0: *18 open() "/usr/local/openresty/nginx/html/evox/about" failed (2: No such file or directory), client: 101.133.138.230, server: , request: "GET /evox/about HTTP/1.1", host: "39.106.50.219:3344"
+2020/03/29 21:10:12 [alert] 12792#0: lua_code_cache is off; this will hurt performance in /usr/local/openresty/nginx/conf/redis.conf:11
+2020/03/29 21:10:12 [emerg] 12792#0: bind() to 0.0.0.0:3344 failed (98: Address already in use)
+2020/03/29 21:10:12 [emerg] 12792#0: bind() to 0.0.0.0:3344 failed (98: Address already in use)
+2020/03/29 21:10:12 [emerg] 12792#0: bind() to 0.0.0.0:3344 failed (98: Address already in use)
+2020/03/29 21:10:12 [emerg] 12792#0: bind() to 0.0.0.0:3344 failed (98: Address already in use)
+2020/03/29 21:10:12 [emerg] 12792#0: bind() to 0.0.0.0:3344 failed (98: Address already in use)
+2020/03/29 21:10:12 [emerg] 12792#0: still could not bind()
+2020/03/29 21:11:10 [notice] 12805#0: signal process started
+2020/03/29 21:11:44 [alert] 12812#0: lua_code_cache is off; this will hurt performance in /usr/local/openresty/nginx/conf/redis.conf:11
+2020/03/29 21:12:09 [error] 12814#0: *1 failed to load inlined Lua code: content_by_lua(redis.conf:47):14: 'then' expected near '=', client: 120.204.125.114, server: , request: "GET /test HTTP/1.1", host: "39.106.50.219:3344"
+2020/03/29 21:17:56 [notice] 12831#0: signal process started
+2020/03/29 21:18:02 [alert] 12834#0: lua_code_cache is off; this will hurt performance in /usr/local/openresty/nginx/conf/redis.conf:11
+2020/03/29 21:18:39 [notice] 12844#0: signal process started
+2020/03/29 21:18:41 [alert] 12846#0: lua_code_cache is off; this will hurt performance in /usr/local/openresty/nginx/conf/redis.conf:11
+2020/03/29 21:19:42 [notice] 12855#0: signal process started
+2020/03/29 21:19:43 [alert] 12857#0: lua_code_cache is off; this will hurt performance in /usr/local/openresty/nginx/conf/redis.conf:11
+2020/03/30 01:53:57 [alert] 13545#0: lua_code_cache is off; this will hurt performance in /usr/local/openresty/nginx/conf/redis.conf:11
+2020/03/30 01:53:57 [emerg] 13545#0: bind() to 0.0.0.0:3344 failed (98: Address already in use)
+2020/03/30 01:53:57 [emerg] 13545#0: bind() to 0.0.0.0:3344 failed (98: Address already in use)
+2020/03/30 01:53:57 [emerg] 13545#0: bind() to 0.0.0.0:3344 failed (98: Address already in use)
+2020/03/30 01:53:57 [emerg] 13545#0: bind() to 0.0.0.0:3344 failed (98: Address already in use)
+2020/03/30 01:53:57 [emerg] 13545#0: bind() to 0.0.0.0:3344 failed (98: Address already in use)
+2020/03/30 01:53:57 [emerg] 13545#0: still could not bind()
+2020/03/30 01:54:05 [notice] 13546#0: signal process started
+2020/03/30 01:54:08 [alert] 13549#0: lua_code_cache is off; this will hurt performance in /usr/local/openresty/nginx/conf/redis.conf:11
+2020/03/30 01:55:19 [notice] 13562#0: signal process started
+2020/03/30 01:55:35 [alert] 13566#0: lua_code_cache is off; this will hurt performance in /usr/local/openresty/nginx/conf/offical_redis_example.conf:11
+2020/03/30 12:08:42 [error] 13568#0: *7 open() "/usr/local/openresty/nginx/html/sdk" failed (2: No such file or directory), client: 101.133.224.19, server: , request: "POST /sdk HTTP/1.1", host: "39.106.50.219:3344"
+2020/03/30 12:08:42 [error] 13568#0: *8 open() "/usr/local/openresty/nginx/html/nmaplowercheck1585541322" failed (2: No such file or directory), client: 101.133.224.19, server: , request: "GET /nmaplowercheck1585541322 HTTP/1.1", host: "39.106.50.219:3344"
+2020/03/30 12:08:42 [error] 13568#0: *9 open() "/usr/local/openresty/nginx/html/evox/about" failed (2: No such file or directory), client: 101.133.224.19, server: , request: "GET /evox/about HTTP/1.1", host: "39.106.50.219:3344"
+2020/03/30 12:08:42 [error] 13568#0: *10 open() "/usr/local/openresty/nginx/html/HNAP1" failed (2: No such file or directory), client: 101.133.224.19, server: , request: "GET /HNAP1 HTTP/1.1", host: "39.106.50.219:3344"
+2020/03/30 18:19:36 [notice] 15021#0: signal process started
+2020/03/30 18:20:10 [alert] 15032#0: lua_code_cache is off; this will hurt performance in /usr/local/openresty/nginx/conf/use_cjson.conf:11
+2020/03/30 18:20:19 [error] 15034#0: *1 failed to load external Lua file "/usr/local/openresty/nginx/lua/use_cjson.lua": /usr/local/openresty/nginx/lua/use_cjson.lua:17: 'end' expected (to close 'if' at line 14) near '<eof>', client: 116.232.75.140, server: , request: "GET /test HTTP/1.1", host: "39.106.50.219:3344"
+2020/03/30 18:22:29 [notice] 15074#0: signal process started
+2020/03/30 18:22:33 [alert] 15077#0: lua_code_cache is off; this will hurt performance in /usr/local/openresty/nginx/conf/use_cjson.conf:11
+2020/03/30 18:22:37 [error] 15079#0: *1 lua entry thread aborted: runtime error: /usr/local/openresty/nginx/lua/use_cjson.lua:16: bad argument #2 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	/usr/local/openresty/nginx/lua/use_cjson.lua:16: in main chunk, client: 116.232.75.140, server: , request: "GET /test HTTP/1.1", host: "39.106.50.219:3344"
+2020/03/30 18:22:38 [error] 15079#0: *2 lua entry thread aborted: runtime error: /usr/local/openresty/nginx/lua/use_cjson.lua:16: bad argument #2 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	/usr/local/openresty/nginx/lua/use_cjson.lua:16: in main chunk, client: 116.232.75.140, server: , request: "GET /test HTTP/1.1", host: "39.106.50.219:3344"
+2020/03/30 18:23:33 [notice] 15087#0: signal process started
+2020/03/30 18:23:33 [alert] 15078#0: lua_code_cache is off; this will hurt performance in /usr/local/openresty/nginx/conf/use_cjson.conf:11
+2020/03/30 18:27:09 [notice] 15098#0: signal process started
+2020/03/30 18:27:09 [alert] 15078#0: lua_code_cache is off; this will hurt performance in /usr/local/openresty/nginx/conf/use_cjson.conf:11
+2020/03/30 18:27:12 [error] 15099#0: *6 lua entry thread aborted: runtime error: /usr/local/openresty/nginx/lua/use_cjson.lua:16: bad argument #2 to 'log' (expected table to have __tostring metamethod)
+stack traceback:
+coroutine 0:
+	[C]: in function 'log'
+	/usr/local/openresty/nginx/lua/use_cjson.lua:16: in main chunk, client: 116.232.75.140, server: , request: "GET /test HTTP/1.1", host: "39.106.50.219:3344"
+2020/03/30 18:27:12 [error] 15099#0: *7 lua entry thread aborted: runtime error: /usr/local/openresty/nginx/lua/use_cjson.lua:16: bad argument #2 to 'log' (expected table to have __tostring metamethod)
+stack traceback:
+coroutine 0:
+	[C]: in function 'log'
+	/usr/local/openresty/nginx/lua/use_cjson.lua:16: in main chunk, client: 116.232.75.140, server: , request: "GET /test HTTP/1.1", host: "39.106.50.219:3344"
+2020/03/30 18:28:47 [notice] 15107#0: signal process started
+2020/03/30 18:28:47 [alert] 15078#0: lua_code_cache is off; this will hurt performance in /usr/local/openresty/nginx/conf/use_cjson.conf:11
+2020/03/30 18:28:51 [error] 15108#0: *9 [lua] use_cjson.lua:16: success"{\"key\":\"value\"}", client: 116.232.75.140, server: , request: "GET /test HTTP/1.1", host: "39.106.50.219:3344"
+2020/03/31 09:44:09 [notice] 16271#0: signal process started
+2020/03/31 09:44:35 [alert] 16276#0: lua_code_cache is off; this will hurt performance in /usr/local/openresty/nginx/conf/api_server.conf:11
+2020/03/31 09:44:35 [emerg] 16276#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2020/03/31 09:44:35 [emerg] 16276#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2020/03/31 09:44:35 [emerg] 16276#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2020/03/31 09:44:35 [emerg] 16276#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2020/03/31 09:44:35 [emerg] 16276#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2020/03/31 09:44:35 [emerg] 16276#0: still could not bind()
+2020/03/31 09:44:50 [alert] 16278#0: lua_code_cache is off; this will hurt performance in /usr/local/openresty/nginx/conf/api_server.conf:11
+2020/03/31 09:45:05 [error] 16280#0: *1 open() "/usr/local/openresty/nginx/html/test" failed (2: No such file or directory), client: 116.232.75.140, server: , request: "GET /test HTTP/1.1", host: "39.106.50.219:3344"
+2020/03/31 09:45:46 [error] 16280#0: *1 failed to load external Lua file "/usr/local/openresty/nginx/lua/addtion.lua": cannot open /usr/local/openresty/nginx/lua/addtion.lua: No such file or directory, client: 116.232.75.140, server: , request: "GET /api/addtion?a=4&b=4 HTTP/1.1", host: "39.106.50.219:3344"
