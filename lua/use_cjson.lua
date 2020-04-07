@@ -1,9 +1,9 @@
-local encode = require("cjson").encode
+local cjson = require("cjson")
 
 local str = [[{"key":"value"}]]
 
 function json_encode( str )
-    local ok, t = pcall(encode, str)
+    local ok, t = pcall(cjson.encode, str)
     if not ok then
         return nil
     end
@@ -18,4 +18,4 @@ else
     ngx.log(ngx.ERR, "failed", res)
 end
 
-ngx.say("okokok...")
+ngx.say("okokok...\n" .. res)

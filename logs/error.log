@@ -1,3 +1,51 @@
 2020/03/31 18:48:02 [notice] 23412#0: signal process started
 2020/03/31 18:48:02 [alert] 22341#0: lua_code_cache is off; this will hurt performance in /usr/local/openresty/nginx/conf/threeLib.conf:10
 2020/03/31 18:48:05 [error] 23413#0: *50 lua ssl certificate verify error: (20: unable to get local issuer certificate), client: 116.232.75.140, server: _, request: "GET /test HTTP/1.1", host: "39.106.50.219:3344"
+2020/04/01 10:58:46 [notice] 25131#0: signal process started
+2020/04/01 10:59:06 [alert] 25138#0: lua_code_cache is off; this will hurt performance in /usr/local/openresty/nginx/conf/use_coroutine.conf:9
+2020/04/01 10:59:14 [error] 25140#0: *4 open() "/usr/local/openresty/nginx/html/favicon.ico" failed (2: No such file or directory), client: 47.240.16.201, server: _, request: "GET /favicon.ico HTTP/1.1", host: "39.106.50.219:3344", referrer: "http://39.106.50.219:3344/test"
+2020/04/01 11:01:25 [error] 25140#0: *13 open() "/usr/local/openresty/nginx/html/favicon.ico" failed (2: No such file or directory), client: 47.240.16.201, server: _, request: "GET /favicon.ico HTTP/1.1", host: "39.106.50.219:3344", referrer: "http://39.106.50.219:3344/test"
+2020/04/01 11:02:26 [error] 25140#0: *18 open() "/usr/local/openresty/nginx/html/favicon.ico" failed (2: No such file or directory), client: 47.240.16.201, server: _, request: "GET /favicon.ico HTTP/1.1", host: "39.106.50.219:3344", referrer: "http://39.106.50.219:3344/test"
+2020/04/01 11:04:58 [error] 25140#0: *19 open() "/usr/local/openresty/nginx/html/favicon.ico" failed (2: No such file or directory), client: 47.240.16.201, server: _, request: "GET /favicon.ico HTTP/1.1", host: "39.106.50.219:3344", referrer: "http://39.106.50.219:3344/test"
+2020/04/01 11:07:35 [error] 25140#0: *22 open() "/usr/local/openresty/nginx/html/favicon.ico" failed (2: No such file or directory), client: 47.240.16.201, server: _, request: "GET /favicon.ico HTTP/1.1", host: "39.106.50.219:3344", referrer: "http://39.106.50.219:3344/test"
+2020/04/01 11:25:12 [error] 25140#0: *27 open() "/usr/local/openresty/nginx/html/favicon.ico" failed (2: No such file or directory), client: 47.240.16.201, server: _, request: "GET /favicon.ico HTTP/1.1", host: "39.106.50.219:3344", referrer: "http://39.106.50.219:3344/test"
+2020/04/01 11:42:43 [error] 25140#0: *36 open() "/usr/local/openresty/nginx/html/favicon.ico" failed (2: No such file or directory), client: 47.240.16.201, server: _, request: "GET /favicon.ico HTTP/1.1", host: "39.106.50.219:3344", referrer: "http://39.106.50.219:3344/test"
+2020/04/01 14:51:40 [notice] 26340#0: signal process started
+2020/04/01 14:52:00 [emerg] 26344#0: unknown directive "iworker_processes" in /usr/local/openresty/nginx/conf/restyDNSLib.conf:1
+2020/04/01 14:52:55 [alert] 26354#0: lua_code_cache is off; this will hurt performance in /usr/local/openresty/nginx/conf/restyDNSLib.conf:9
+2020/04/01 14:53:05 [error] 26356#0: *1 open() "/usr/local/openresty/nginx/html/test" failed (2: No such file or directory), client: 116.232.75.140, server: , request: "GET /test HTTP/1.1", host: "39.106.50.219:3344"
+2020/04/01 14:53:09 [error] 26356#0: *1 lua udp socket read timed out, client: 116.232.75.140, server: , request: "GET /dns HTTP/1.1", host: "39.106.50.219:3344"
+2020/04/01 14:53:10 [error] 26356#0: *1 open() "/usr/local/openresty/nginx/html/favicon.ico" failed (2: No such file or directory), client: 116.232.75.140, server: , request: "GET /favicon.ico HTTP/1.1", host: "39.106.50.219:3344", referrer: "http://39.106.50.219:3344/dns"
+2020/04/01 15:10:04 [error] 26356#0: *5 open() "/usr/local/openresty/nginx/html/test" failed (2: No such file or directory), client: 116.232.75.140, server: , request: "GET /test HTTP/1.1", host: "39.106.50.219:3344"
+2020/04/01 15:10:07 [error] 26356#0: *5 failed to load external Lua file "/usr/local/openresty/nginx/lua/dnsLib.lua": /usr/local/openresty/nginx/lua/dnsLib.lua:3: ')' expected (to close '(' at line 2) near '=', client: 116.232.75.140, server: , request: "GET /dns HTTP/1.1", host: "39.106.50.219:3344"
+2020/04/01 15:10:20 [error] 26356#0: *7 lua udp socket read timed out, client: 116.232.75.140, server: , request: "GET /dns HTTP/1.1", host: "39.106.50.219:3344"
+2020/04/01 15:10:22 [error] 26356#0: *7 lua udp socket read timed out, client: 116.232.75.140, server: , request: "GET /dns HTTP/1.1", host: "39.106.50.219:3344"
+2020/04/02 12:22:18 [error] 26356#0: *17 open() "/usr/local/openresty/nginx/html/explicit_not_exist_path" failed (2: No such file or directory), client: 47.103.129.225, server: , request: "GET /explicit_not_exist_path HTTP/1.1", host: "jeedq.cn:3344"
+2020/04/02 12:22:18 [error] 26356#0: *17 open() "/usr/local/openresty/nginx/html/index.php" failed (2: No such file or directory), client: 47.103.129.225, server: , request: "GET /index.php HTTP/1.1", host: "jeedq.cn:3344"
+2020/04/02 12:22:18 [error] 26356#0: *17 open() "/usr/local/openresty/nginx/html/index.jsp" failed (2: No such file or directory), client: 47.103.129.225, server: , request: "GET /index.jsp HTTP/1.1", host: "jeedq.cn:3344"
+2020/04/02 12:22:18 [error] 26356#0: *17 "/usr/local/openresty/nginx/html/admin/index.html" is not found (2: No such file or directory), client: 47.103.129.225, server: , request: "GET /admin/ HTTP/1.1", host: "jeedq.cn:3344"
+2020/04/02 12:22:19 [error] 26356#0: *17 open() "/usr/local/openresty/nginx/html/favicon.ico" failed (2: No such file or directory), client: 47.103.129.225, server: , request: "GET /favicon.ico HTTP/1.1", host: "jeedq.cn:3344"
+2020/04/02 12:22:19 [error] 26356#0: *17 open() "/usr/local/openresty/nginx/html/robots.txt" failed (2: No such file or directory), client: 47.103.129.225, server: , request: "GET /robots.txt HTTP/1.1", host: "jeedq.cn:3344"
+2020/04/02 12:22:19 [error] 26356#0: *17 "/usr/local/openresty/nginx/html/wcm/index.html" is not found (2: No such file or directory), client: 47.103.129.225, server: , request: "GET /wcm/ HTTP/1.1", host: "jeedq.cn:3344"
+2020/04/02 12:22:19 [error] 26356#0: *17 "/usr/local/openresty/nginx/html/phpMyAdmin/index.html" is not found (2: No such file or directory), client: 47.103.129.225, server: , request: "GET /phpMyAdmin/ HTTP/1.1", host: "jeedq.cn:3344"
+2020/04/02 12:22:19 [error] 26356#0: *17 "/usr/local/openresty/nginx/html/phpmyadmin/index.html" is not found (2: No such file or directory), client: 47.103.129.225, server: , request: "GET /phpmyadmin/ HTTP/1.1", host: "jeedq.cn:3344"
+2020/04/03 16:27:13 [notice] 32028#0: signal process started
+2020/04/05 01:09:12 [crit] 771#0: pwrite() "/usr/local/openresty/nginx/logs/nginx.pid" failed (28: No space left on device)
+2020/04/05 01:15:46 [notice] 2277#0: signal process started
+2020/04/05 01:15:46 [error] 2277#0: open() "/usr/local/openresty/nginx/logs/nginx.pid" failed (2: No such file or directory)
+2020/04/07 13:38:08 [alert] 12896#0: lua_code_cache is off; this will hurt performance in /usr/local/openresty/nginx/conf/use_cjson.conf:11
+2020/04/07 13:38:22 [error] 12898#0: *1 [lua] use_cjson.lua:16: success"{\"key\":\"value\"}", client: 116.232.75.140, server: , request: "GET /test HTTP/1.1", host: "39.106.50.219:3344"
+2020/04/07 13:38:23 [error] 12898#0: *1 open() "/usr/local/openresty/nginx/html/favicon.ico" failed (2: No such file or directory), client: 116.232.75.140, server: , request: "GET /favicon.ico HTTP/1.1", host: "39.106.50.219:3344", referrer: "http://39.106.50.219:3344/test"
+2020/04/07 13:39:10 [error] 12898#0: *1 [lua] use_cjson.lua:16: success"{\"key\":\"value\"}", client: 116.232.75.140, server: , request: "GET /test HTTP/1.1", host: "39.106.50.219:3344"
+2020/04/07 13:39:20 [error] 12898#0: *1 [lua] use_cjson.lua:16: success"{\"key\":\"value\"}", client: 116.232.75.140, server: , request: "GET /test HTTP/1.1", host: "39.106.50.219:3344"
+2020/04/07 13:40:35 [notice] 13436#0: signal process started
+2020/04/07 13:43:07 [emerg] 13960#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2020/04/07 13:43:07 [emerg] 13960#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2020/04/07 13:43:07 [emerg] 13960#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2020/04/07 13:43:07 [emerg] 13960#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2020/04/07 13:43:07 [emerg] 13960#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2020/04/07 13:43:07 [emerg] 13960#0: still could not bind()
+2020/04/07 14:08:23 [notice] 18742#0: signal process started
+2020/04/07 14:09:00 [notice] 18892#0: signal process started
+2020/04/07 14:09:23 [notice] 18963#0: signal process started
+2020/04/07 15:01:50 [notice] 28606#0: signal process started
